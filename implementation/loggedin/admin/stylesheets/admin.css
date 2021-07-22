@@ -1,0 +1,395 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #adced7;
+}
+
+.navbar-brand {
+    margin: auto 5rem 10px 20px;
+}
+
+.navbar-brand img {
+    width: 8em;
+    height: 2.5em;
+    transition: 0.31s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.2);
+}
+
+.d-flex input:hover {
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.cent {
+    margin: auto;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding-left: 0.7rem;
+
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 6px;
+    border-color: grey;
+    border-width: 1px;
+    padding: 0.2rem 0.35rem 0.2rem 0.35rem;
+    z-index: 50;
+    font-size: 110%;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+footer {
+    box-sizing: border-box;
+    background-color: #adced7;
+    position: relative;
+    width: 100%;
+    min-height: 5vh;
+    padding: 10px 10px;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+footer a {
+    font-size: 1.2em;
+    color: grey;
+    text-decoration: none;
+}
+
+#lfoot a {
+    display: block;
+
+}
+
+@media (max-width:1000px) {
+    .d-flex a {
+        margin-top: 10px;
+    }
+    .r-menu {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 20em auto;
+    padding-top: 5.6em;
+    min-height: 100vh;
+}
+
+/*navleft*/
+
+#navleft {
+    background: #eee9e9;
+    height: 100%;
+    text-align: center;
+    padding-top: 5em;
+}
+
+#det p {
+    text-align: center;
+
+}
+
+.dropdown-menu li {
+    border-bottom: 1.5px solid grey;
+}
+
+
+#det {
+    margin-top: 0.2em;
+    font-size: 1.2em;
+    line-height: 0.8em;
+}
+
+#features {
+    margin-top: 3em;
+}
+
+#features ul {
+    text-align: left;
+}
+
+#features ul li {
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+#features a {
+    margin: 5px;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+#features li:hover {
+    background-color: #33484e;
+    border: 1px grey;
+    border-radius: 3px;
+}
+
+#mainarea {
+    padding-top: 3em;
+    padding-left: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 1em;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 1em;
+}
+
+#profileinfo input[type='text'],
+input[type='password'] {
+    width: 50%;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 0.1em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.sub {
+    margin-top: 2em;
+}
+
+
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 20em;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+#takeserver {
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#takeserver:hover {
+    background-color: #80a1aa;
+    color: white;
+}
+
+.sub {
+    margin-top: 2em;
+}
+
+.cont-wrapper {
+    margin-left: 5em;
+    min-height: 40vh;
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+
+.tabs {
+    margin: 0;
+    background-color: #80a1aa;
+}
+
+.tabs ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+
+}
+
+.tabs ul li {
+    padding: 1.5vh 10px 5px 10px;
+    cursor: pointer;
+    height: 100%;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-left: 0.8em;
+}
+
+
+.tabs ul li:hover {
+
+    color: white;
+}
+
+
+#ftab {
+    background-color: #eee9e9;
+}
+
+#stab {
+    background-color: #80a1aa;
+
+}
+
+#ttab {
+    background-color: #80a1aa;
+}
+
+.show-cont-wrap {
+    background-color: #eee9e9;
+    padding: 0.8em;
+}
+
+#firstdata {
+    display: block;
+    padding-top: 20px;
+}
+
+.recenter {
+    font-size: 1em;
+    cursor: default;
+    background: #dddddd;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.recenter:hover {
+    transform: scale(1.005);
+    background: white;
+}
+
+#seconddata {
+    display: none;
+    padding-top: 20px;
+}
+
+#thirddata {
+    display: none;
+    padding-top: 20px;
+}
+
+
+#popup {
+    display: none;
+    background-color: #80a1aa;
+    border: 1px solid grey;
+    border-radius: 8px;
+    min-height: 10vw;
+    padding: 1em;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    z-index: 50;
+    width: 100%;
+}
+
+#popup2 {
+    display: none;
+    background-color: #80a1aa;
+    border: 1px solid grey;
+    border-radius: 8px;
+    min-height: 10vw;
+    padding: 1em;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    z-index: 50;
+    width: 100%;
+}
+
+.hdets {
+    display: block;
+    padding-top: 0.5em;
+    border-radius: 3px;
+
+}
+
+
+.address {
+    margin-top: 0.5em;
+    border-radius: 3px;
+}
+
+.hrow {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.brow {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.brow button {
+    margin: 0.5em;
+    border-radius: 3px;
+}

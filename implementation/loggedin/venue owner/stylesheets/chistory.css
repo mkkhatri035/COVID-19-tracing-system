@@ -1,0 +1,125 @@
+#venue-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2em;
+}
+
+.cover p {
+    font-size: 1.3em;
+    color: black;
+}
+
+.cover:hover {
+    background-color: #80a1aa;
+}
+
+.cover:hover p {
+    color: white;
+}
+
+.cover {
+    cursor: pointer;
+    background-color: #eee9e9;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 0.8em;
+    box-sizing: border-box;
+}
+
+.qrc {
+    width: 10em;
+    height: auto;
+    margin: auto;
+}
+
+.create-new {
+    height: fit-content;
+    margin-top: 25%;
+}
+
+#htab {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#htab table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#htab td {
+    padding: 5px 0px 5px 10px;
+}
+
+#htab th {
+    padding: 5px 0px 5px 5px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: normal;
+}
+
+#htab tr:nth-child(even) {
+    background-color: #F8F8F8;
+    color: black;
+    border-bottom: 1px solid darkgrey;
+
+}
+
+#htab tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid darkgrey;
+}
+
+#popup {
+    display: none;
+    background-color: #80a1aa;
+    border: 1px solid grey;
+    border-radius: 8px;
+    min-height: 10vw;
+    padding: 1em;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    z-index: 50;
+}
+
+.vdets {
+    display: block;
+    padding-top: 0.5em;
+    border-radius: 3px;
+
+}
+
+.address {
+    margin-top: 0.5em;
+    border-radius: 3px;
+}
+
+.vrow {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.brow {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.brow button {
+    margin: 0.5em;
+    border-radius: 3px;
+}
+
+#createven {
+    width: 60%;
+    margin-left: 5em;
+    padding-top: 0.5em;
+    border-radius: 3px;
+}
