@@ -597,7 +597,7 @@ let mailTransporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'thecovidtracker21@gmail.com',
-        pass: 'Covid03@@'
+        pass: ''
     }
 });
 
