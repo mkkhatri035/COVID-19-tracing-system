@@ -43,7 +43,7 @@ function getcheckins() {
                 var container = document.createElement('DIV');
                 var img = document.createElement('IMG');
                 img.setAttribute('class', "qrcode");
-                img.setAttribute('src', 'https://qrickit.com/api/qr.php?d=https://ide-5bc262e5cd0f40bf9d411af2edd8f2e1-8080.cs50.ws/users/checkInVenue/' + d[i]['Check-in code'] + '&addtext=Venue+QR+Code&txtcolor=000000&fgdcolor=000000&bgdcolor=ffffff&qrsize=450&t=p&e=m');
+                img.setAttribute('src', 'https://qrickit.com/api/qr.php?d=https://ide-5bc262e5cd0f40bf9d1af2edd8f2e1-8080.cs50.ws/users/checkInVenue/' + d[i]['Check-in code'] + '&addtext=Venue+QR+Code&txtcolor=000000&fgdcolor=000000&bgdcolor=ffffff&qrsize=450&t=p&e=m');
                 img.setAttribute('alt', 'QR Code for Check-In');
                 container.appendChild(img);
                 var innerdiv = document.createElement('DIV');
