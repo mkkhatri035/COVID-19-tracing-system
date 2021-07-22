@@ -211,7 +211,7 @@ function showError(error) {
 
 function createmapwithmark(center, current) {
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWtraGF0cmkwMzUiLCJhIjoiY2twaTQzM2hkMDUzcjJwcXlwMXdoNmFnZCJ9.QI9FGNYwPbi33vdiLyipfQ';
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWtraGF0cmkwMzUiLCJhIjoiYQzM2hkMDUzcjJwcXlwMXdoNmFnZCJ9.9FGNYwPbi33vdiLyipfQ';
     var map = new mapboxgl.Map({
         container: 'map_markers_div',
         style: 'mapbox://styles/mapbox/streets-v11',
