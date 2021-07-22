@@ -1,0 +1,247 @@
+#detail {
+    box-sizing: border-box;
+    position: absolute;
+    top: 14vh;
+    left: 35vw;
+    width: 30vw;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #74a0ac;
+    border-width: 1px;
+    border-color: grey;
+    z-index: 60;
+    text-align: center;
+}
+
+#detail h1 {
+    color: white;
+}
+
+
+.blurr {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 133vh;
+    background-color: #f1f2f2;
+    opacity: 0.55;
+    z-index: 50;
+    font-size: 100px;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+
+
+/* for login*/
+
+.login-form {
+    padding: 20px;
+    margin: 20px auto 15px auto;
+
+    max-width: 22em;
+    background-color: #74a0ac;
+}
+
+.login-form label {
+    font-size: 1em;
+}
+
+.login-heading {
+    text-align: center;
+}
+
+.username {
+    padding: 10px;
+}
+
+#username-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.password {
+    padding: 10px;
+}
+
+#password-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.submit-form {
+    padding: 8px;
+    margin-top: 30px;
+}
+
+.submit-form button {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #33484e;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+
+.submit-form button:hover {
+    background-color: white;
+    color: #f19797;
+}
+
+.login-help {
+    font-size: 1em;
+    display: block;
+    float: right;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.alt-login-method {
+    margin: 5px;
+    text-align: center;
+}
+
+.alt-login-method p {
+    font-size: 1.2em;
+}
+
+.alt-login-method button {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f19797;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+
+.alt-login-method button:hover {
+    background-color: white;
+    color: #f19797;
+}
+
+.signup-link {
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto auto auto;
+    max-width: 22em;
+    background-color: #74a0ac;
+    font-size: 1em;
+}
+
+
+
+
+
+
+/* for signup page */
+
+.signup-form {
+    padding: 20px;
+    margin: 20px auto 15px auto;
+
+    max-width: 22em;
+    background-color: #74a0ac;
+}
+
+.signup-heading {
+    text-align: center;
+}
+
+.signup-form p {
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.signup-form button {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #33484e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup-form button:hover {
+    background-color: white;
+    color: #f19797;
+}
+
+.signup-form label {
+    font-size: 1em;
+}
+
+.signup-heading {
+    text-align: center;
+}
+
+.email {
+    padding: 10px;
+}
+
+#email-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.phoneNum {
+    padding: 10px;
+}
+
+#phoneNum-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#password-reinput {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#basic input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#basic label {
+    padding-top: 10px;
+    font-size: 1em;
+}

@@ -1,0 +1,34 @@
+#map_markers_div {
+    width: 80%;
+    margin: auto;
+    height: 30rem;
+    box-sizing: border-box;
+    padding-top: 10vh;
+    z-index: 50;
+    box-shadow: 0 4px 8px 0 lightgrey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px black solid;
+}
+
+#labels {
+    width: 100%;
+    text-align: center;
+}
+
+#labels img {
+    width: auto;
+    height: 2.5em;
+}
+
+#labels span {
+    text-align: center;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}

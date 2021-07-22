@@ -1,0 +1,91 @@
+.container {
+    padding-left: 10px;
+}
+
+.wrap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 15px;
+}
+
+
+#tab1 {
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 5vw;
+}
+
+#tab1 caption {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#tab1 td {
+    padding: 5px 0px 5px 5px;
+}
+
+#tab1 th {
+    padding: 5px 0px 5px 5px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: normal;
+}
+
+#tab1 tr:nth-child(even) {
+    background-color: #F8F8F8;
+    color: black;
+    border-bottom: 1px solid darkgrey;
+
+}
+
+#tab1 tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid darkgrey;
+}
+
+
+#tab2 {
+    border-color: black;
+    border-width: 2px;
+    width: 500px;
+    border-style: solid;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+
+}
+
+#tab2 th {
+    background-color: palegoldenrod;
+    border-color: black;
+    border-width: 1px;
+    padding: 7px;
+    text-align: left;
+    border-style: solid;
+    vertical-align: top;
+
+}
+
+#tab2 td {
+    padding: 5px;
+    border: 1px solid darkgrey;
+    text-align: left;
+}
+
+#curve_chart {
+    width: 95%;
+    padding: 5px;
+    margin-top: 1em;
+    margin-left: 0.3em;
+}
+
+.graph {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.graph div p {
+    display: inline;
+}

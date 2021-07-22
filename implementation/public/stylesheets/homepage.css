@@ -1,0 +1,345 @@
+/*author Manish Kumar Khatri*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+    margin: auto 5rem 10px 20px;
+}
+
+.navbar-brand img {
+    width: 7em;
+    height: 2.5em;
+    transition: 0.31s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.2);
+}
+
+.d-flex input:hover {
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.cent {
+    margin: auto;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding-left: 0.7rem;
+
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 6px;
+    border-color: grey;
+    border-width: 1px;
+    padding: 0.2rem 0.35rem 0.2rem 0.35rem;
+    z-index: 50;
+    font-size: 110%;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.d-flex button {
+    margin-left: 0.9rem;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.r-menu button:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+    padding-top: 13vh;
+    min-height: 100vh;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #adced7;
+    position: relative;
+    width: 100%;
+    min-height: 5vh;
+    padding: 10px 10px;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+footer a {
+    font-size: 1.2em;
+    color: grey;
+    text-decoration: none;
+}
+
+#lfoot a {
+    display: block;
+
+}
+
+@media (max-width:1000px) {
+    .d-flex a {
+        margin-top: 10px;
+    }
+}
+
+
+
+.topimage {
+    padding: 0px 2px 0px 2px;
+}
+
+#topimg {
+    width: 100%;
+    height: 50vh;
+}
+
+.data-latest {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.data-latest .item {
+    text-align: center;
+}
+
+.numbers p,
+.numbers h1 {
+    display: inline;
+}
+
+.deaths {
+    color: red;
+}
+
+.recovered {
+    color: green;
+}
+
+#alert-wrapper {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#econtact {
+    border-right: 1px solid grey;
+}
+
+.alert-header {
+    float: left;
+    height: 100%;
+    text-align: center;
+    margin: 2em 0 10px 1em;
+}
+
+.alert-list {
+    display: inline-block;
+    margin: 1em 0 0 2em;
+}
+
+.alert-list ul {
+    list-style: none;
+
+    width: 150%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+
+.alert-list ul li {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+
+}
+
+.alert-list ul li:hover a {
+    text-decoration: none;
+}
+
+.rowtext {
+    margin-right: 0.5em;
+}
+
+#quick-wrapper a {
+    font-size: 1.2em;
+    padding-left: 1em;
+    color: grey;
+    text-decoration: none;
+
+}
+
+#quick-wrapper>h1 {
+    margin-left: 1em;
+}
+
+#quick-wrapper li:hover a {
+
+    text-decoration: underline;
+    color: black;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: auto 25em;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+#abimg {
+    float: right;
+    width: 20em;
+}
+
+#contact-us {
+    display: grid;
+    grid-template-columns: auto 25em;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+#cnimage {
+    padding: 1em;
+    float: right;
+    width: 20em;
+    height: 18em;
+    background: #102535;
+}
+
+#htfunc {
+    padding: 1em;
+}
+
+#feature-wrapper {
+    padding-left: 2em;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+}
+
+.feature {
+    margin-left: 0.5em;
+}
+
+.feature img {
+    width: 100%;
+    height: 15em;
+}
+
+
+#cucont {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#cucont ul li {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1em;
+}
+
+#cucont ul li div,
+#cucont ul li h4 {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.fa-linkedin {
+    font-size: 2.5em;
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    font-size: 2.5em;
+}
+
+.fa-instagram {
+    font-size: 2.5em;
+}
+
+.fa-github {
+    font-size: 2.5em;
+    background: black;
+    color: white;
+}
+
+#loginoption {
+    width: 25%;
+    padding: 5px;
+    margin-left: 2em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+#emailout {
+    padding: 5px;
+    margin-left: 2em;
+    display: block;
+
+}
+
+#btn-recover {
+    margin-left: 1em;
+    border-radius: 5px;
+    padding: 0.3em;
+    width: 5em;
+
+}
+
+#btn-resend {
+    margin-left: 1em;
+    border-radius: 5px;
+    padding: 0.3em;
+    width: 5em;
+}
+
+#btn-resend:hover {
+    background-color: #33484e;
+    color: white;
+}
+
+#btn-recover:hover {
+    background-color: #33484e;
+    color: white;
+}
+
+.passinput {
+    width: 25%;
+    padding: 5px;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

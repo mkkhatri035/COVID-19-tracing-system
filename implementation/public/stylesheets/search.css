@@ -1,0 +1,30 @@
+.res-wrapper {
+    margin: 0.8em;
+    padding: 0.5em;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+}
+
+.res-wrapper h3 a {
+    text-decoration: None;
+    color: black;
+}
+
+.res-wrapper h3:hover a {
+    text-decoration: underline;
+}
+
+
+.slink {
+
+    text-decoration: underline;
+    color: blue;
+}
+
+sdescrip {
+
+    color: grey;
+    font-size: 80%;
+}

@@ -1,0 +1,37 @@
+[{
+        "head": "checkin",
+        "url": "/checkin.html",
+        "describe": "Checkin to the system using QR CODE or using just a click with user login"
+    },
+    {
+        "head": "search",
+        "url": "/searchres.html",
+        "describe": "search the site with your understandable keywords like checkin, search, contact us, etc."
+    },
+    {
+        "head": "hotspots",
+        "url": "/hotspot.html",
+        "describe": "Know all the hotspots available in your country"
+    },
+    {
+        "head": "qr code",
+        "url": "/checkin.html",
+        "describe": "Checkin to a venue by scanning the QR Code provided and signing in to the Web app with your credentials"
+    },
+    {
+        "head": "Browser Checkin",
+        "url": "/users/UserCheckIn.html",
+        "describe": "Checkin to a venue by using your browser location easily."
+    },
+    {
+        "head": "About Us",
+        "url": "/about.html",
+        "describe": "We The Covid Tracker are able to help you maintain the record book for all your venue checkin for easy COVID-19 Tracing."
+    },
+    {
+        "head": "Latest Covid case info",
+        "url": "/covidcases.html",
+        "describe": "You can checkout the latest and daily updated COVID-19 data using our Web App"
+    }
+
+]

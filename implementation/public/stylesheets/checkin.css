@@ -1,0 +1,35 @@
+main {
+    padding-top: 10vh;
+}
+
+.checkins {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin: 10px 5px 10px 5px
+}
+
+.element {
+    padding: 10px 5px 10px 5px;
+    line-height: 0.8em;
+}
+
+.element img {
+    width: 20em;
+}
+
+.element>div {
+    min-width: 70%;
+    display: inline-block;
+    margin: auto;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.qrcode {
+    width: 10em;
+    height: auto;
+}
